@@ -1,0 +1,28 @@
+.Checkout_container {
+  align-self: flex-end;
+}
+
+.checkout_button {
+  background-color: #0b69ff;
+  color: white;
+  height: 40px;
+  width: 120px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+}
+.checkout_head {
+  color: #616e7c;
+  font-size: 25px;
+  margin: 0px;
+
+}
+.span_style {
+  color: #171f46;
+  font-size: 30px;
+}
+.checkout_para {
+  color: #616e7c;
+  font-size: 16px;
+  margin-top: 0px;
+}
