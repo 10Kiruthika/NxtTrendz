@@ -15,7 +15,6 @@
   color: #616e7c;
   font-size: 25px;
   margin: 0px;
-
 }
 .span_style {
   color: #171f46;
@@ -25,4 +24,40 @@
   color: #616e7c;
   font-size: 16px;
   margin-top: 0px;
+}
+.popup_cont {
+  background-color: white;
+  box-shadow: 0px 0px 16px 8px lightgray;
+  border-radius: 10px;
+  padding: 30px;
+}
+.label_text {
+  margin-right: 10px;
+}
+.payment_head {
+  margin: 0px;
+}
+.disable-label {
+  color: gray;
+}
+.display-label {
+  color: black;
+}
+.confirm_button {
+  background-color: #0b69ff;
+  border: none;
+  height: 40px;
+  width: 120px;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+}
+.success {
+  color: green;
+  font-size: 20px;
+  font-weight: bold;
+}
+.disable-button {
+  background-color: lightgray;
+  color: black;
 }
