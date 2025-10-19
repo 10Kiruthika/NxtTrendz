@@ -74,11 +74,11 @@ class CartSummary extends Component {
                     <>
                       <h1 className="payment_head">Payment Details</h1>
                       <h3>Payment Method</h3>
-                      <form onChange={this.changeinput}>
+                      <form onChange={this.changeinput} className="input_cont">
                         {paymentMethod.map(each => {
                           const isEnabled = each.id === 'CASH ON DELIVERY'
                           return (
-                            <>
+                            <div key={each.id}>
                               <input
                                 type="radio"
                                 id={each.id}
@@ -96,7 +96,7 @@ class CartSummary extends Component {
                               >
                                 {each.value}
                               </label>
-                            </>
+                            </div>
                           )
                         })}
                       </form>
